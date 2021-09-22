@@ -7,7 +7,7 @@ public:
 		Vehicle::speed = speed; 
 		Vehicle::total = total; 
 	} 
-	virtual void ShowMember()=0;//´¿Ğéº¯ÊıµÄ¶¨Òå
+	virtual void ShowMember()=0;//çº¯è™šå‡½æ•°çš„å®šä¹‰
 protected: 
 	float speed; 
 	int total; 
@@ -19,7 +19,7 @@ public:
 	{ 
 		Car::aird = aird; 
 	} 
-	virtual void ShowMember()//ÅÉÉúÀà³ÉÔ±º¯ÊıÖØÔØ 
+	virtual void ShowMember()//æ´¾ç”Ÿç±»æˆå‘˜å‡½æ•°é‡è½½ 
 	{ 
 		cout<<"the speed is : "<<speed<<endl;
 		cout<<"the total is : "<<total<<endl;
@@ -30,7 +30,7 @@ protected:
 }; 
 void main() 
 { 
-	//Vehicle a(100,4);//´íÎó,³éÏóÀà²»ÄÜ´´½¨¶ÔÏó 
+	//Vehicle a(100,4);//é”™è¯¯,æŠ½è±¡ç±»ä¸èƒ½åˆ›å»ºå¯¹è±¡ 
 	Car b(250,150,4); 
 	b.ShowMember(); 
 }
