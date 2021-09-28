@@ -1,4 +1,3 @@
-#define __DBL_MIN_EXP__ (-1021)
 #define __FLT32X_MAX_EXP__ 1024
 #define __cpp_attributes 200809
 #define __UINT_LEAST16_MAX__ 0xffff
