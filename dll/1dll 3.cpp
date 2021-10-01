@@ -59,4 +59,3 @@ void main()
     drawobj(lineobj);//
     drawobj(elliobj);
 }
-
